@@ -25,7 +25,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="16dp"
@@ -36,7 +36,8 @@
             android:layout_height="100dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/alpha_bank_icon" />
+            android:src="@drawable/alpha_bank_icon"
+            android:contentDescription="TODO" />
 
         <TextView
             android:layout_width="match_parent"
@@ -44,31 +45,11 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="136dp"
-            android:textColor="#FFFFFF"
-            android:textAlignment="center"
-            android:textSize="24dp"
             android:fontFamily="@font/calibri"
-            android:text="Welcome to the new" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="170dp"
-            android:textColor="#FFFFFF"
+            android:text="Welcome to U Pay App"
             android:textAlignment="center"
-            android:textSize="24dp"
-            android:fontFamily="@font/calibri"
-            android:text="Alpha-bank" />
-
-        <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="154dp"
-            android:src="@drawable/finger_print_icon" />
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/login"
@@ -94,12 +75,12 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_gravity="center"
-            android:background="@drawable/whiteroundedbuttonshape"
-            android:fontFamily="@font/calibri"
-            android:text="Become a client"
-            android:layout_marginBottom="24dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/whiteroundedbuttonshape"
+            android:fontFamily="@font/calibri"
+            android:text="Transfer"
             android:textAllCaps="false"
             android:textColor="#2f2e2f"
             android:textSize="16sp" />
