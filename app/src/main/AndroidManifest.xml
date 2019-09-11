@@ -23,13 +23,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Main2Activity"
+            android:name=".Transfer2"
             android:configChanges="orientation|screenSize"
             android:label=""
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden|adjustPan" />
-        <activity android:name=".Main3Activity"
+        <activity android:name=".MainActivity3"
             android:configChanges="orientation|screenSize"
             android:label=""
             android:screenOrientation="portrait"
